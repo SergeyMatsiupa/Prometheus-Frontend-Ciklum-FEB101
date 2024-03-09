@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inline tags</title>
+  </head>
+  <body>
+    <section>
+      <p>
+        If you want to group <span>several words</span> you can put them into
+        the tag span. There will be no visual changes in this case.
+      </p>
+      <p>
+        <b>HTML</b> is the hypertext markup <strong>language</strong>. There
+        are<i>block</i> and <em>inline</em> tags.
+      </p>
+    </section>
+    <section>
+      <img src="./logo.svg" alt="Prometheus logo" width="135" height="22" />
+      <a href="https://prometheus.org.ua">Prometheus website</a>
+    </section>
+    <section>
+      First text line
+      <br />
+      Second text line
+    </section>
+    <section>
+      <input type="text" />
+    </section>
+    <section>
+      <h2>Example of audio with src attribute</h2>
+      <audio src="./wrong.mp3" controls autoplay>
+        Text will show to us if browser doesn't support audio tag
+      </audio>
+    </section>
+    <section>
+      <h2>Example of the audio with source tag</h2>
+      <audio controls autoplay>
+        <source src="./wrong.mp3" />
+        Text will show to us if browser doesn't support audio tag
+      </audio>
+    </section>
+    <section>
+      <h2>Example of the video with src attribute</h2>
+      <video
+        src="realshort.mp4"
+        width="500"
+        height="250"
+        controls
+        autoplay
+        muted
+      >
+        Text we will see if browser doesn't support video tag
+      </video>
+    </section>
+    <section>
+      <h2>Example of the video with source tag</h2>
+      <video width="500" height="250" controls autoplay muted>
+        <source src="realshort.mp4" />
+        Text we will see if browser doesn't support video tag
+      </video>
+    </section>
+    <section>
+        <h2>Example of the embed video</h2>
+        <embed type="video/webm" src="realshort.mp4" width="500" height="250"/>
+    </section>
+    <section>
+        <h2>Example of the embed page</h2>
+        <embed type="text/html" src="https://prometheus.org.ua" width="500" height="250"/>
+    </section>
+  </body>
+</html>
